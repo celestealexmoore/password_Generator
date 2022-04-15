@@ -12,6 +12,20 @@ function writePassword() {
 
   // passwordText.value = password;
 
+  let lengthConfirm = prompt("How many characters would you like your password to contain?", "Please enter a number between 8 and 128.")
+  verifyAnswer(lengthConfirm);
+  console.log(lengthConfirm);
+
+  function verifyAnswer(input) {
+    if(input < 8 || input > 128 || isNaN(input)){
+      let newLengthConfirm = prompt("How many characters would you like your password to contain?", "Please enter a number between 8 and 128.")
+      writePassword(newLengthConfirm);
+      console.log(newLengthConfirm);
+    };
+  }
+
+    //I want this to run again.
+
   let capConfirm = confirm("Do you want your password to contain capital letters?");
     if(capConfirm === true) {
       alert("Your password will include capital letters.")
