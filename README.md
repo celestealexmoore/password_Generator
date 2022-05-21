@@ -27,7 +27,7 @@
 
 ## Deployed Site
 
-   [The correct link is coming soon. In the meantime, play this game I built.](https://celestealexmoore.github.io/Rock-Paper-Scissors/)
+   [Here is the link to access the deployed application.](https://celestealexmoore.github.io/password_Generator/)
 
 ## Features
     - Dynamically Updated HTML and CSS
@@ -44,7 +44,7 @@ celestealexmoore@gmail.com.
 
 ## Project Status
 
-In Progress
+Completed
 
 ---
 
